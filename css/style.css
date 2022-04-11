@@ -1,0 +1,46 @@
+
+/* Page Main */
+
+.header{
+    height: 50px;
+    background-color: green;
+    text-align: center;    
+}
+.hero{
+    height: 300px;;
+    background-color: pink;
+}
+.main{
+    height: 400px;
+    background-color: black;
+}
+.main-2{
+    height: 300px;
+    background-color: yellow;
+}
+.footer{
+background-color: crimson;
+height: 500px;
+}
+.footer-1{
+background-color: green;
+height: 500px;
+
+}
+/*Page Main*/
+/* Utility*/
+.img{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+} 
+.text{
+    background-color: green;
+    text-align: center;
+}
+.skills{
+    background-color: purple;
+    text-align: center;
+}
+
+/* Utility*/
