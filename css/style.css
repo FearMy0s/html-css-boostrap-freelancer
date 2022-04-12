@@ -1,46 +1,149 @@
 
 /* Page Main */
 
-.header{
-    height: 50px;
-    background-color: green;
-    text-align: center;    
+.bg-main-color{
+    background-color:#2C3E50 ;
+    color: white;
 }
-.hero{
-    height: 300px;;
-    background-color: pink;
+.bg-hero-color{
+    background-color:#1ABC9C;
+    text-align: center;
 }
 .main{
-    height: 400px;
-    background-color: black;
+    text-align: center;
 }
-.main-2{
-    height: 300px;
-    background-color: yellow;
+.bg-main-2-color{
+    background-color: #1ABC9C;
+    text-align: center;
+    color: white;
 }
 .footer{
-background-color: crimson;
-height: 500px;
+    text-align: center;
 }
-.footer-1{
-background-color: green;
-height: 500px;
+.bg-footer{
+    background-color:#2C3E50 ;
+    text-align: center;
+    color: white;
+}
+.bg-footer-2{
+    background-color:#131a21 ;
+    text-align: center;
+    color: white;
 
 }
 /*Page Main*/
-/* Utility*/
-.img{
-    background-color: blue;
-    height: 100px;
-    width: 100px;
-} 
-.text{
-    background-color: green;
-    text-align: center;
-}
-.skills{
-    background-color: purple;
-    text-align: center;
+/* Text-Decoration*/
+.button-settings{
+    background-color: #1ABC9C;
+    border-color: white;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
-/* Utility*/
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.star{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.black-star{
+    color: black;
+}
+.black-line{
+    background-color: black;
+}
+
+.text-fix{
+    font-size: 15px;
+}
+.web{
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 5px;
+}
+
+.fb{
+padding-left: 18px;
+padding-right: 18px;
+}
+.in{
+padding-left: 16px;
+padding-right: 16px;
+
+}
+h1{
+    font-size: 60px;
+    color: white;
+}
+.contact{
+    color: black;
+    text-align: center;
+}
+.logo{
+    font-size: 40px;
+    
+}
+
+.credits{
+    font-size: 25px;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.hero-img{
+    width: 200px;
+    height: 200px;
+}
+.port-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.ruler-left{
+    width: 50px;
+    height: 2px;
+    background-color: white;
+}
+.ruler-right{
+    width: 50px;
+    height: 2px;
+    background-color: white;
+}.shrink{
+    width: 60%;
+}
+.about{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.hover:hover{
+    position: relative;
+    color: gold;
+    opacity: 1;
+}
+/*Text-Decoration*/
+
+.main-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap:0 50px;
+    font-size: 20px;  
+}
+.button{
+    display: inline-block;
+}
